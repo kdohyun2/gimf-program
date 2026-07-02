@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Gyeongju International Music Festival</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h3>2026</h3>
+    <h1>GYEONGJU INTERNATIONAL MUSIC FESTIVAL</h1>
+    <p>PROGRAM GUIDE</p>
+</header>
+
+<main>
+
+    <div class="tabs">
+
+        <button class="tab active"
+                data-image="images/day1.png">
+            1일차
+        </button>
+
+        <button class="tab"
+                data-image="images/day2.jpg">
+            2일차
+        </button>
+
+        <button class="tab"
+                data-image="images/day3.jpg">
+            3일차
+        </button>
+
+    </div>
+
+
+    <section class="program">
+
+        <img
+            id="programImage"
+            src="images/day1.png"
+            alt="1일차 프로그램">
+
+    </section>
+
+</main>
+
+
+<!-- 라이트박스 -->
+
+<div id="lightbox">
+
+    <span id="close">&times;</span>
+
+    <img id="lightboxImage">
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
